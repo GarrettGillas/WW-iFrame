@@ -1,0 +1,123 @@
+@font-face{
+font-family: WWTextBold;
+src: url('../fonts/WWText-Bold.ttf') format('truetype'),
+	 url('../fonts/WWText-Bold.eot') format('eot'), 
+	 url('../fonts/WWText-Bold.woff') format('woff'), 	  
+	 url('../fonts/WWText-Bold.svg') format('svg');
+font-weight: normal;
+font-style: normal;}
+
+@font-face{
+font-family: FortBold;
+src: url('../fonts/Fort-Bold.ttf') format('truetype'),
+	 url('../fonts/Fort-Bold.eot') format('eot'), 
+	 url('../fonts/Fort-Bold.woff') format('woff'), 	  
+	 url('../fonts/Fort-Bold.svg') format('svg');
+font-weight: normal;
+font-style: normal;}
+
+@font-face{
+font-family: FortBook;
+src: url('../fonts/Fort-Book.ttf') format('truetype'),
+	 url('../fonts/Fort-Book.eot') format('eot'), 
+	 url('../fonts/Fort-Book.woff') format('woff'), 	  
+	 url('../fonts/Fort-Book.svg') format('svg');
+font-weight: normal;
+font-style: normal;}
+
+body{
+margin:0; 
+padding:0; 
+background:#fff url(bg-grad.jpg) repeat-x 0 0;
+width:297px; 
+height:786px; 
+border:1px solid #c2c2c2;
+overflow:hidden;}
+
+p,h1,h2,h3,h4,h5,img,form button{
+margin:0;
+padding:0;
+position:absolute;}
+
+form{
+margin:0;
+padding:23px 0 0 19px;
+border:0;
+position:relative;}
+
+form button{
+border:none;
+width:260px;
+height:39px;
+background:transparent url(button.png) no-repeat 0 0;
+margin:0;
+cursor:pointer;}
+
+form button.mtgbutton{
+width:258px;
+height:98px;
+background:transparent url(friends.png) no-repeat 0 0;
+top:379px;}
+
+form p{
+color:#474747;
+font:400 17px/17px FortBook, Arial, Helvetica, sans-serif;
+zoom:1;
+position:relative;}
+
+form button p, form button p a{
+color:#fff;
+font:400 14px/14px FortBold, Arial, Helvetica, sans-serif;
+zoom:1;
+text-align:center;
+text-decoration:none;
+margin:0 auto !important;
+position:relative;}
+
+form input{
+width:39px;
+height:26px;
+border:1px solid #00b08d;
+background-color:#fff;
+margin:0px 4px 0px 3px;
+padding:3px 5px;
+font:400 17px/17px FortBook, Arial, Helvetica, sans-serif;
+zoom:1;}
+
+h2{
+font:700 22px/28px WWTextBold, Arial, Helvetica, sans-serif;
+zoom:1;
+color:#00b08d;}
+
+h3{
+font:400 18px/18px FortBold, Arial, Helvetica, sans-serif;
+zoom:1;
+color:#474747;
+margin:0 0 0 3px;}
+
+h4{
+color:#474747;
+font:400 16px/18px FortBold, Arial, Helvetica, sans-serif;
+zoom:1;
+position:relative;
+text-align:left;}
+
+form button.mtgbutton h4{
+position:absolute;
+top:12px;
+left:12px;}
+
+form button.mtgbutton p{
+position:absolute;
+top:68px;
+left:23px;}
+
+h3#id1{top:85px;}
+p#id2{top:93px; margin-left:0;}
+button#id3{top:165px;}
+h2#id4{top:220px;}
+button#id5{top:253px;}
+h2#id6{top:553px;}
+img#id7{top:587px;}
+h2#id8{top:613px;}
+button#id9{top:655px;}
